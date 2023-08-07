@@ -1,0 +1,104 @@
+{
+    "_id": "316f9ce7-20c8-4e3d-b3ed-69e4a4ec4229",
+    "colName": "WestPack File Upload",
+    "created": "2023-08-07T06:37:03.662Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1c262524-f4ef-42cf-bb2e-b4cb5dbf67c7",
+            "colId": "316f9ce7-20c8-4e3d-b3ed-69e4a4ec4229",
+            "containerId": "",
+            "name": "File Upload",
+            "url": "https://api.payway.com.au/rest/v1/payment-files",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-07T06:37:03.666Z",
+            "modified": "2023-08-07T06:37:03.666Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "file",
+                        "value": "../../../../Downloads/test4.csv"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "T17438_SEC_3vgdy7pt8xff4jytpzxsznsuidsvmqwfgucvabyyrcjqcycqwia7wuqz9fg4 ",
+                    "password": ""
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "9bf99739-758e-4373-b05f-60dc67017549",
+            "colId": "316f9ce7-20c8-4e3d-b3ed-69e4a4ec4229",
+            "containerId": "",
+            "name": "StatusCheck",
+            "url": "https://api.payway.com.au/rest/v1/payment-files/test4.csv",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-07T06:37:16.862Z",
+            "modified": "2023-08-07T06:37:16.862Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "T17438_SEC_3vgdy7pt8xff4jytpzxsznsuidsvmqwfgucvabyyrcjqcycqwia7wuqz9fg4 ",
+                    "password": ""
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "6d8dae58-df4b-4a3c-8e9b-2613f585f1c7",
+            "colId": "316f9ce7-20c8-4e3d-b3ed-69e4a4ec4229",
+            "containerId": "",
+            "name": "Transaction",
+            "url": "https://api.payway.com.au/rest/v1/payment-files/test4.csv/transactions",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-08-07T06:37:22.534Z",
+            "modified": "2023-08-07T06:37:22.534Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "T17438_SEC_3vgdy7pt8xff4jytpzxsznsuidsvmqwfgucvabyyrcjqcycqwia7wuqz9fg4 ",
+                    "password": ""
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "ed04fdb0-5afb-426f-ab57-eafe841130c7",
+            "colId": "316f9ce7-20c8-4e3d-b3ed-69e4a4ec4229",
+            "containerId": "",
+            "name": "Report",
+            "url": "https://api.payway.com.au/rest/v1/payment-files/test4.csv/csv-report",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-08-07T06:37:29.992Z",
+            "modified": "2023-08-07T06:37:29.992Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "T17438_SEC_3vgdy7pt8xff4jytpzxsznsuidsvmqwfgucvabyyrcjqcycqwia7wuqz9fg4 ",
+                    "password": ""
+                }
+            },
+            "tests": []
+        }
+    ]
+}
